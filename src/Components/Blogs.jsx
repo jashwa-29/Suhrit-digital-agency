@@ -36,8 +36,8 @@ const Blogs = () => {
                     {blog.category}
                   </p>
                   <p className="mb-4 text-xl font-semibold">{blog.title}</p>
-                  <p className="mb-6 text-sm text-gray-500 sm:text-base lg:mb-8">
-                    {blog.description || 'A brief description of the blog content.'} {/* Optional description */}
+                  <p className="mb-6 text-sm text-gray-500 sm:text-base lg:mb-8 line-clamp-3">
+                    {blog.content || 'A brief description of the blog content.'} {/* Optional description */}
                   </p>
                   <div className="flex">
                     <div className="flex flex-col">
